@@ -26,8 +26,8 @@ export default defineConfig({
   output: "hybrid",
   adapter: vercel(),
   integrations: [sanity({
-    projectId,
-    dataset,
+    projectId: "wxfo2xgo",
+    dataset: "production",
     studioBasePath: "/admin",
     useCdn: false,
     // `false` if you want to ensure fresh data
